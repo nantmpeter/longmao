@@ -21,7 +21,7 @@
                 <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico sidebar-nav-sub-ico-rotate"></span>
             </a>
             <ul class="sidebar-nav sidebar-nav-sub" style="display: block;">
-                <li class="sidebar-nav-link"><a href="/skzs/andmobile"><span class="am-icon-angle-right sidebar-nav-link-logo"></span>安卓手机端</a></li>
+                <li class="sidebar-nav-link"><a href="/machineItems"><span class="am-icon-angle-right sidebar-nav-link-logo"></span>机器列表</a></li>
                 <li class="sidebar-nav-link"><a href="/skzs/andtv"><span class="am-icon-angle-right sidebar-nav-link-logo"></span>安卓tv端</a></li>
                 <li class="sidebar-nav-link"><a href="/skzs/andboard"><span class="am-icon-angle-right sidebar-nav-link-logo"></span>安卓白板端</a></li>
                 <li class="sidebar-nav-link"><a href="/skzs/andlauncher"><span class="am-icon-angle-right sidebar-nav-link-logo"></span>安卓launcher</a></li>
