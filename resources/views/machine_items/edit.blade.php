@@ -27,7 +27,7 @@
                     </div>
                     @endif
                     <div class="widget-body am-fr">
-                        {!! Form::open(['route' => ['machineItems.update', $machineItem->id], 'class'=>'am-form tpl-form-line-form']) !!}
+                        {!! Form::open(['route' => ['machineItems.update', $machineItem->id], 'class'=>'am-form tpl-form-line-form','method' => 'patch']) !!}
 
                     <div class="am-form-group">
                         <label class="am-u-sm-3 am-form-label">机器名称</label>

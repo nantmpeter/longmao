@@ -32,11 +32,16 @@
                               <td>{{$item->created_at}}</td>
                               <td>{{$item->updated_at}}</td>
                               <td>
+                                  {!! Form::open(['route' => ['machineItems.destroy', $item->id], 'method' => 'delete']) !!}
+
                                   <div class="tpl-table-black-operation">
                                       <a href="{!! route('machineItems.edit', [$item->id]) !!}">
                                           <i class="am-icon-pencil"></i> 编辑
                                       </a>
+                                      
+                                      {!! Form::button('<i class="am-icon-trash"></i> 删除', ['type' => 'submit', 'class' => 'btn btn-danger btn-xs', 'onclick' => "return confirm('Are you sure?')"]) !!}
                                   </div>
+                                {!! Form::close() !!}
                               </td>
 
                           </tr>
